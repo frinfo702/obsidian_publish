@@ -10,7 +10,12 @@ interface Options {
 export default ((opts?: Options) => {
   const Footer: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
     const year = new Date().getFullYear()
-    const links = opts?.links ?? []
+    // 既存のリンクを定義する配列に新しいリンクを追加
+    const links = opts?.links ?? {
+      GitHub: "https://github.com/yourusername",
+      Discord: "https://discord.gg/yourinvitecode",
+      Twitter: "https://twitter.com/yourusername" // 新しいリンクを追加
+    }
     return (
       <footer class={`${displayClass ?? ""}`}>
         <hr />
