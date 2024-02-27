@@ -1,0 +1,30 @@
+- 型
+	- Assertion 
+		- [[as const]]
+		- [[ as[type] ]]
+		- as any
+		- non-null Assertion
+		- satisfies keyword
+	- プリミティブ型
+		- boolean
+		- number
+		- string
+		- void
+			- 値はあるが、型がない
+		- undefined 
+			- 方はあるが、値がない
+		- null
+	- オブジェクト型
+		- Interface
+		- Class
+		- Enum
+		- Arrays
+		- Tuples
+	- 他の型
+		- any
+		- object
+		- unknown
+		- never
+- Type Interface 
+- 型の互換性
+- [[型の組み合わせ]]
