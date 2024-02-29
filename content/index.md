@@ -1,7 +1,6 @@
 ---
 title: Index
-draft: false
-tags: []
+tags:
 ---
 個人サイトのブログに書くまでもないような内容の置き場所
 - [[黄猿]]

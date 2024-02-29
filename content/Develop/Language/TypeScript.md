@@ -1,3 +1,7 @@
+- [サバイバルTypeScript](https://typescriptbook.jp/)
+
+
+
 - 型
 	- Assertion 
 		- [[as const]]
@@ -16,7 +20,7 @@
 		- null
 	- オブジェクト型
 		- Interface
-		- Class
+		- [[Class]]
 		- Enum
 		- Arrays
 		- Tuples
@@ -28,3 +32,4 @@
 - Type Interface 
 - 型の互換性
 - [[型の組み合わせ]]
+- 
